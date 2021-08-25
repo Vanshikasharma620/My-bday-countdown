@@ -1,0 +1,39 @@
+body{
+    background-image: url('snow.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 724px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-family: 'Bebas Neue', cursive;
+   
+}
+
+.container{
+    display: flex;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 5rem;
+    margin-top: 5rem;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown {
+    text-align: center;
+
+}
+
+.countdown span{
+    font-size: 1.3rem;
+}
